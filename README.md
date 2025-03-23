@@ -30,7 +30,7 @@ Let's see what I did to make it happen.
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/aevaksnes/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://aevaksnes.github.io/qr-code-component-main/)
 
 ## My process
 
