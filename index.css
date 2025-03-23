@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body {
+    background-color:hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);  
+    border-radius: 15px; /* Increase rounded corners */
+    padding: 10px;
+    margin-top: 10%;    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow effect */
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcode {
+    margin: 10px auto; /* Small margin on the sides */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 20px); /* Fill the container with a small margin */
+    border-radius: 10px; /* Add rounded corners */
+}  
+
+.text {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 30px); /* Fill the container with a small margin */
+    flex-direction: column;
+}
+
+h1 {
+
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center; /* Center the text */
+   
+}
+
+h2 {
+
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    text-align: center; /* Center the text */
+    
+}
+
+footer {
+    display: block;
+    margin-top: 20px; /* Add spacing below the container */
+    text-align: center; /* Center the footer content */
+    width: 100%; /* Ensure it spans the full width */
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 20px; /* Add spacing below the container */
+}
+.attribution a { color: hsl(228, 45%, 44%); }
